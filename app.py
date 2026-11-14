@@ -25,8 +25,7 @@ def carregar() -> list[Restaurante]:
         dados = json.loads(ARQUIVO.read_text(encoding='utf-8'))
         return [Restaurante(**item) for item in dados]
     except (json.JSONDecodeError, TypeError, OSError):
-        print('Aviso: não foi possível ler o arquivo de dados. Usando dados iniciais.')
-        return restaurantes_iniciais()
+        print('Aviso: não foi possível ler o arquivo de dados.')
 
 def salvar(restaurantes: list[Restaurante]) -> None:
     """Grava a lista de restaurantes no arquivo JSON."""
