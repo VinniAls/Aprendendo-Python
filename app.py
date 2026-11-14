@@ -143,9 +143,9 @@ def finalizar_app() -> None:
 # Cada opção: número -> (texto do menu, função). Para criar uma opção nova,
 # basta adicionar uma linha aqui.
 MENU = {
-    '1': ('Cadastrar restaurante', cadastrar_novo_restaurante),
-    '2': ('Listar restaurantes', listar_restaurantes),
-    '3': ('Alterar status do restaurante', alterar_status_restaurante),
+    '1': ('Cadastrar restaurante!', cadastrar_novo_restaurante),
+    '2': ('Listar restaurantes!', listar_restaurantes),
+    '3': ('Alterar status do restaurante!', alterar_status_restaurante),
 }
 OPCAO_SAIR = '4'
 
