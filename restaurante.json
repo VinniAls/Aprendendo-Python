@@ -1,0 +1,27 @@
+[
+  {
+    "nome": "Sabor Mineiro",
+    "categoria": "Culinaria da região de Minas Gerais",
+    "ativo": false
+  },
+  {
+    "nome": "Pizza Express",
+    "categoria": "Pizza",
+    "ativo": false
+  },
+  {
+    "nome": "Habbib",
+    "categoria": "Árabe",
+    "ativo": true
+  },
+  {
+    "nome": "Taj Bar",
+    "categoria": "Bar restaurante, com diversos tipos de comida",
+    "ativo": true
+  },
+  {
+    "nome": "Donatello",
+    "categoria": "Pizzaria",
+    "ativo": true
+  }
+]
